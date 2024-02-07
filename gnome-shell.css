@@ -1,0 +1,31 @@
+/* Apply glass effect to the top bar */
+#panel {
+    background-color: rgba(255, 255, 255, 0.179); /* Adjust transparency as needed */
+    backdrop-filter: blur(1px); /* Adjust blur intensity as needed */
+}
+
+/* Adjust text color to improve visibility against the glass effect */
+#panel * {
+    color: white; /* Adjust text color as needed */
+}
+
+
+#panel {
+    margin-top: 8px; /* Adjust the top margin to create a gap */
+	margin-bottom: 8px;
+    margin-left: 8px; /* Adjust the left margin to create a gap */
+    margin-right: 8px; /* Adjust the right margin to create a gap */
+    border-radius: 30px; /* Optional: Add rounded corners to the top bar */
+}
+
+#panel {
+    padding-top: 10px; /* Adjust the top padding to increase the thickness */
+    padding-bottom: 5px; /* Adjust the bottom padding to increase the thickness */
+}
+
+#panel .clock-display {
+    font-family: "Your Font", sans-serif; /* Change "Your Font" to the font you want to use */
+    font-size: 14px; /* Adjust the font size as needed */
+    /* Add any other font properties here */
+}
+
